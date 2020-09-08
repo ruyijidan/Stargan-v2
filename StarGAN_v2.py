@@ -454,7 +454,7 @@ class StarGAN_v2():
         fluid.save_dygraph(self.discriminator.state_dict(), "{}/discriminator".format(self.checkpoint_dir))
         if len(self.d_optimizer.state_dict()) > 0:
             print(len(self.d_optimizer.state_dict()))
-            fluid.save_dygraph(self.d_optimizer.state_dict(), "{}/driscriminator".format(self.checkpoint_dir))
+            fluid.save_dygraph(self.d_optimizer.state_dict(), "{}/discriminator".format(self.checkpoint_dir))
         else:
             print('self.d_optimizer.state_dict() is None')
         # fluid.save_dygraph(self.d_optimizer.state_dict(), "{}/driscriminator".format(self.checkpoint_dir)
