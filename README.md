@@ -59,7 +59,7 @@ run eval to get .json result
 ### Latent-guided synthesis
 #### CelebA-HQ
 
-![image](./assets/./assets/latent_2_196930.jpg)
+![image](./assets/latent_2_196930.jpg)
 #### AFHQ
 
 ![image](./assets/latent_1_flickr_cat_000253.jpg)
